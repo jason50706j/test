@@ -13,8 +13,8 @@ import threading
 def index():
     """做出還未結束活動的index表，依時間排序"""
     conn = MySQLdb.connect(host="db-testing.csvceebtmmcx.ap-northeast-1.rds.amazonaws.com", 
-                       user="admin",
-                       passwd="321password",
+                       user="",
+                       password ="",
                        db="activity",
                        charset="utf8")
     now = datetime.datetime.now()
